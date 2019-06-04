@@ -5,7 +5,6 @@ lower_stripped = stripped_to_check.lower()
 
 def palindrome_checker(i):
     if len(i) == 0 or len(i) == 1:
-        print(len(i))
         print("is a palindrome")
         return None
     elif i[0] == i[-1]:
